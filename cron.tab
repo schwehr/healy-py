@@ -1,0 +1,2 @@
+15 * * * * (cd /Users/schwehr/projects/src/healy/ && make update-aloftcon)
+42 * * * * (cd /Users/schwehr/projects/src/healy/ && make update-science)

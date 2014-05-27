@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://earth.google.com/kml/2.0">
+<Document>
+  <!-- provide network link that refreshes -->
+  <name>Healy Science Data</name>
+  <NetworkLink>
+    <name>Healy Science Data - updating link</name>
+    <Link>
+      <href>http://vislab-ccom.unh.edu/~schwehr/healy/healy-science-latest.kml</href>
+      <refreshMode>onExpires</refreshMode>
+      <!-- <refreshInterval>600</refreshInterval> --> <!-- What makes sense? -->
+    </Link>
+  </NetworkLink>
+</Document>
+</kml>
+
